@@ -1,15 +1,18 @@
 header .topPad {
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
+  color: var(--theme-white);
+  text-align: right;
+  padding: 0.75rem;
   background-color: var(--theme-main-color);
-  padding: 1rem 0;
 }
 
-header .topPad span,
+header .topPad div,
+header .topPad p,
 header .topPad a {
-  margin: 0 1rem;
-  color: var(--theme-white);
+  width: 100%;
+  margin: 0;
 }
 
 nav {
@@ -34,8 +37,14 @@ nav #karo {
 }
 
 /* ======== Media Query ========= */
-@media (max-width: 426px) {
+@media (max-width: 768px) {
   header .topPad {
     display: none;
   }
+}
+@media (max-width: 426px) {
+  header .topPad {
+    font-size: 0.5rem;
+  }
+
 }

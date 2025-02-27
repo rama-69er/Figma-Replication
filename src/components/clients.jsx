@@ -67,19 +67,19 @@ function Clients() {
             <div className="clientsBottom">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-3 d-flex align-items-center justify-content-center">
+                        <div className="col-md-3 d-flex align-items-center justify-content-left">
                             <span className='d-flex align-items-center justify-content-center bg-danger'><FontAwesomeIcon icon={faSheetPlastic} /></span>
                             <span> Fill Up Application</span>
                         </div>
-                        <div className="col-md-3 d-flex align-items-center justify-content-center">
+                        <div className="col-md-3 d-flex align-items-center justify-content-left">
                             <span className='d-flex align-items-center justify-content-center bg-success'><FontAwesomeIcon icon={faCreditCard} /></span>
                             <span> Make Online Payment</span>
                         </div>
-                        <div className="col-md-3 d-flex align-items-center justify-content-center">
+                        <div className="col-md-3 d-flex align-items-center justify-content-left">
                             <span className='d-flex align-items-center justify-content-center bg-warning'><FontAwesomeIcon icon={faHeadset} /></span>
                             <span> Processing Application</span>
                         </div>
-                        <div className="col-md-3 d-flex align-items-center justify-content-center">
+                        <div className="col-md-3 d-flex align-items-center justify-content-left">
                             <span className='d-flex align-items-center justify-content-center bg-secondary'><FontAwesomeIcon icon={faEnvelopeOpen} /></span>
                             <span> Get Confirm Mail</span>
                         </div>

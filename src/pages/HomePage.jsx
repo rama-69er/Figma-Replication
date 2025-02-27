@@ -77,8 +77,8 @@ function HomePage() {
                         </span>
                     </div>
                 </div>
-                <div className="row m-0 py-4">
-                    <div className="col-lg-3 col-md-4 col-sm-12 my-4">
+                <div className="row m-0 py-2">
+                    <div className="col-lg-3 col-md-4 col-sm-12 my-2">
                         <button className="theme-btn w-100">
                             Talk an Expert
                         </button>

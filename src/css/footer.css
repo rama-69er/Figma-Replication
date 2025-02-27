@@ -39,5 +39,6 @@ footer img {
     background-color: var(--theme-blue);
     color: var(--theme-white);
     padding: 2rem 1rem;
+    text-align: center;
   }
 }

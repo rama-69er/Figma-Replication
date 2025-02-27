@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer>
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-12 col-sm-12">
                     <p>
                         Design outstanding interfaces with advanced Figma features in a matter of minutes.
                     </p>
@@ -34,7 +34,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-md-2">
+                <div className="col-lg-2 col-md-6 col-sm-6">
                     <a className='navbar-brand p-0 m-0' href="#">
                         START A BUSINESS
                     </a>
@@ -56,7 +56,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-md-2">
+                <div className="col-lg-2 col-md-6 col-sm-6">
                     <a className='navbar-brand p-0 m-0' href="#">
                         REGISTERATION
                     </a>
@@ -78,7 +78,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-md-2">
+                <div className="col-lg-2 col-md-6 col-sm-6">
                     <a className='navbar-brand p-0 m-0' href="#">
                         COMLIANCE & TAX
                     </a>
@@ -97,7 +97,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-md-2">
+                <div className="col-lg-2 col-md-6 col-sm-6">
                     <a className='navbar-brand p-0 m-0' href="#">
                         BIS & CDSCO
                     </a>
