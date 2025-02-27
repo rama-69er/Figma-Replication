@@ -33,7 +33,7 @@ function HomePage() {
                 </span>
                 <div>
                     <h1>
-                        Your truster patner for compliance business needs
+                        Your trusted patner for compliance business needs
                     </h1>
                 </div>
                 <hr color='red' width="3%" style={{ margin: "2rem 0" }} />
