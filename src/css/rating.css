@@ -1,0 +1,34 @@
+.ratingPage {
+  padding: 4rem;
+  background-color: var(--theme-main-color);
+}
+
+.ratingPage img {
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.ratingPage .ratingCards {
+  background-color: var(--theme-grey);
+  padding: 2rem;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.ratingPage h2 {
+  margin-bottom: 2rem;
+}
+
+.ratingPage .ratingCards > div > p > span {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+}
+
+/* ================ Media Query ================ */
+@media (max-width: 768px) {
+  .ratingPage {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+}

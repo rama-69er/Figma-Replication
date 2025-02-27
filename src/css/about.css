@@ -1,0 +1,44 @@
+.aboutPage {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutPage .aboutHeading p {
+  color: var(--theme-orange);
+}
+.aboutPage .aboutHeading h3 {
+  font-weight: bolder;
+}
+.aboutPage .aboutHeading h3 span:first-child {
+  color: var(--theme-orange);
+}
+.aboutPage .aboutHeading h3 span:last-child {
+  color: var(--theme-main-color);
+}
+.aboutPage .aboutContent p {
+  margin: 2rem 0;
+}
+.aboutPage img {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  border-radius: 2rem;
+}
+
+/* ================ Media Query ================ */
+@media (max-width: 1440px) {
+  .aboutPage img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .aboutPage {
+    padding: 2rem 1rem;
+  }
+}
+@media (max-width: 426px) {
+  .aboutPage img {
+    width: 100%;
+  }
+}

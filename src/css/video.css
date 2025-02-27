@@ -1,0 +1,33 @@
+.videoPage {
+  background-color: var(--theme-main-color);
+  color: var(--theme-white);
+  padding: 4rem;
+}
+
+.videoPage .videoContent div {
+  margin: 0.5rem 0;
+}
+
+.videoPage .videoContent div span {
+  font-size: 2rem;
+  box-sizing: border-box;
+}
+
+.videoPage .videoContent div > p {
+  color: rgb(212, 211, 211);
+}
+
+iframe {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+/* ================ Media Query ================= */
+@media (max-width: 768px) {
+  .videoPage {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  iframe {
+    border-radius: 1rem;
+  }
+}

@@ -1,0 +1,43 @@
+footer {
+  background-color: var(--theme-blue);
+  padding: 4rem;
+  color: var(--theme-light-black);
+}
+
+footer > div a {
+  color: var(--theme-orange);
+  text-decoration: none;
+}
+footer .navbar-brand {
+  font-size: 0.9rem !important;
+  font-weight: bold;
+}
+
+footer > div a:hover {
+  text-decoration: none;
+  color: var(--theme-orange);
+}
+
+footer .logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+footer img {
+  margin: 2rem auto 1rem auto;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  filter: invert(100%);
+}
+
+/* ================ Media Query ================ */
+@media (max-width: 768px) {
+  footer {
+    background-color: var(--theme-blue);
+    color: var(--theme-white);
+    padding: 2rem 1rem;
+  }
+}

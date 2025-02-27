@@ -1,0 +1,33 @@
+.whyPage {
+  padding: 4rem;
+}
+.whyPage .whyHeading p {
+  color: var(--theme-orange);
+}
+.whyPage .whyHeading h3 {
+  font-weight: bolder;
+}
+.whyPage .whyContent p {
+  margin: 2rem 0;
+}
+.whyPage .whyCards {
+  padding: 1rem;
+  width: 80%;
+  text-align: center;
+  border-radius: 8px;
+  margin: 1rem auto;
+}
+.whyPage .whyCards div {
+  font-size: 3rem;
+}
+.whyPage .whyCards p {
+  width: 80%;
+  margin: auto;
+}
+
+/* ============= Media Query ================ */
+@media (max-width: 768px) {
+  .whyPage {
+    padding: 2rem 1rem;
+  }
+}

@@ -17,6 +17,39 @@ li {
   list-style: none;
 }
 
-a {
+Link {
   text-decoration: none;
+}
+
+:root {
+  --theme-main-color: #1c4670;
+  --theme-white: white;
+  --theme-white-transparent: rgba(255, 255, 255, 0.5);
+  --theme-grey: lightgrey;
+  --theme-whiteSmoke: whitesmoke;
+  --theme-orange: orange;
+  --theme-light-black: rgb(106, 106, 101);
+  --theme-blue: #011B5B;
+  --theme-yellow-gradient: linear-gradient(
+    135deg,
+    rgba(242, 226, 42, 1) 0%,
+    rgba(28, 70, 112, 1) 65%
+  );
+  --theme-orange-gradient: linear-gradient(
+    135deg,
+    orange 0%,
+    rgba(28, 70, 112, 1) 85%
+  );
+}
+
+.theme-btn {
+  background-color: var(--theme-main-color);
+  color: var(--theme-white);
+  width: fit-content;
+  padding: 1rem;
+  border: 0px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 2rem 0;
 }

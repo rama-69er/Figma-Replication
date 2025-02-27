@@ -1,0 +1,67 @@
+.clientsPage {
+  text-align: center;
+  padding: 4rem;
+  background-color: var(--theme-whiteSmoke);
+  width: 100%;
+}
+
+.clientsPage .clientsLogo {
+  padding: 2rem 0;
+}
+
+.clientsPage img {
+  width: 2rem;
+  height: 2rem;
+  border: 0.1px solid lightgrey;
+  box-shadow: 1px 1px 5px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transform: scale(2);
+}
+.clientsPage button {
+  text-decoration: none;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: var(--theme-main-color);
+  background-color: var(--theme-whiteSmoke);
+  cursor: pointer;
+  border: none;
+}
+.clientsBottom {
+  background-color: var(--theme-orange);
+  padding: 1rem 0;
+  text-align: center;
+}
+.clientsBottom div {
+  margin: 1.5rem 0;
+  width: 100%;
+}
+
+.clientsBottom div > span:first-child {
+  background-color: white;
+  color: white;
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.clientsBottom div > span:last-child {
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+/* ============= Media Query ============ */
+@media (max-width: 768px) {
+  .clientsPage {
+    padding: 2rem 1rem;
+  }
+  .clientsBottom {
+    padding: 1rem 0.5rem;
+    text-align: left;
+  }
+  .clientsBottom div > span:first-child {
+    font-size: 1rem;
+  }
+}

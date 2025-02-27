@@ -1,0 +1,41 @@
+header .topPad {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-color: var(--theme-main-color);
+  padding: 1rem 0;
+}
+
+header .topPad span,
+header .topPad a {
+  margin: 0 1rem;
+  color: var(--theme-white);
+}
+
+nav {
+  background-color: var(--theme-white);
+  border: 0.5px solid var(--theme-grey);
+  padding: 0 !important;
+}
+
+nav img {
+  height: 3rem;
+}
+
+nav #register {
+  font-weight: 750;
+  font-size: larger;
+  color: var(--theme-main-color);
+}
+nav #karo {
+  font-weight: 750;
+  font-size: larger;
+  color: var(--theme-orange);
+}
+
+/* ======== Media Query ========= */
+@media (max-width: 426px) {
+  header .topPad {
+    display: none;
+  }
+}
