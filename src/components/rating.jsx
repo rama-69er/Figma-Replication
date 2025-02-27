@@ -28,11 +28,11 @@ function Rating() {
                         </div>
                         <div>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi at commodi amet tenetur enim, minima quidem praesentium nulla blanditiis atque quaerat consequuntur eos, aliquid nihil ullam, fugiat obcaecati asperiores! Eligendi neque nulla officiis ex, nemo omnis numquam. Quis odit, dolorum incidunt vero sed odio voluptatem nemo molestias eaque molestiae veritatis possimus sapiente, libero dolor.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi at commodi amet tenetur enim, minima quidem praesentium nulla blanditiis atque quaerat consequuntur eos, aliquid nihil ullam, fugiat obcaecati asperiores! Eligrighti neque nulla officiis ex, nemo omnis numquam. Quis odit, dolorum incidunt vero sed odio voluptatem nemo molestias eaque molestiae veritatis possimus sapiente, libero dolor.
                             </p>
                         </div>
                         <div className='row'>
-                            <div className="col-md-1">
+                            <div className="col-md-1 text-right">
                                 <img src="https://media.licdn.com/dms/image/v2/D5635AQEMf6TbZbsaNw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1737956655773?e=1741233600&v=beta&t=NtnXKqh0clPx9qAD9PN8eG9T8hz9uUbKzHQShfrK42U" alt="rdx" />
                             </div>
                             <div className='col-md-4'>
@@ -57,11 +57,11 @@ function Rating() {
                         </div>
                         <div>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi at commodi amet tenetur enim, minima quidem praesentium nulla blanditiis atque quaerat consequuntur eos, aliquid nihil ullam, fugiat obcaecati asperiores! Eligendi neque nulla officiis ex, nemo omnis numquam. Quis odit, dolorum incidunt vero sed odio voluptatem nemo molestias eaque molestiae veritatis possimus sapiente, libero dolor.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi at commodi amet tenetur enim, minima quidem praesentium nulla blanditiis atque quaerat consequuntur eos, aliquid nihil ullam, fugiat obcaecati asperiores! Eligrighti neque nulla officiis ex, nemo omnis numquam. Quis odit, dolorum incidunt vero sed odio voluptatem nemo molestias eaque molestiae veritatis possimus sapiente, libero dolor.
                             </p>
                         </div>
                         <div className='row'>
-                            <div className="col-md-1">
+                            <div className="col-md-1 text-right">
                                 <img src="https://media.licdn.com/dms/image/v2/D4D35AQFPT-oLZdgBqg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1722668128485?e=1741237200&v=beta&t=-gIYsR23uGv9ha173xUN4RctwYnuQiGsOAHO7sI8oUA" alt="rdx" />
                             </div>
                             <div className='col-md-4'>
@@ -87,11 +87,11 @@ function Rating() {
                         </div>
                         <div>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi at commodi amet tenetur enim, minima quidem praesentium nulla blanditiis atque quaerat consequuntur eos, aliquid nihil ullam, fugiat obcaecati asperiores! Eligendi neque nulla officiis ex, nemo omnis numquam. Quis odit, dolorum incidunt vero sed odio voluptatem nemo molestias eaque molestiae veritatis possimus sapiente, libero dolor.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi at commodi amet tenetur enim, minima quidem praesentium nulla blanditiis atque quaerat consequuntur eos, aliquid nihil ullam, fugiat obcaecati asperiores! Eligrighti neque nulla officiis ex, nemo omnis numquam. Quis odit, dolorum incidunt vero sed odio voluptatem nemo molestias eaque molestiae veritatis possimus sapiente, libero dolor.
                             </p>
                         </div>
                         <div className='row'>
-                            <div className="col-md-1">
+                            <div className="col-md-1 text-right">
                                 <img src="https://media.licdn.com/dms/image/v2/D5635AQGVIU-vr54CNg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1727970098006?e=1741237200&v=beta&t=PBnR-40PteFet2d8SQcJr7i_p7laCxgf92i4eT-TnyY" alt="rdx" />
                             </div>
                             <div className='col-md-4'>
