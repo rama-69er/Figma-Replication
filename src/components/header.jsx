@@ -12,20 +12,20 @@ function Header() {
     return (
         <header>
             <div className='topPad'>
-                <div className="row">
-                    <div className="col-md-8">
+                <ul>
+                    <li>
                         <p><FontAwesomeIcon icon={faEnvelope} /> www.registerkaro.in</p>
-                    </div>
-                    <div className="col-md-2">
+                    </li>
+                    <li>
                         <p><FontAwesomeIcon icon={faPhone} /> +91-8302491984</p>
-                    </div>
-                    <div className="col-md-2 d-flex">
+                    </li>
+                    <li>
                         <a className="text-light mx-3" href="www.instagram.com" ><FontAwesomeIcon icon={faInstagram} /></a>
                         <a className="text-light mx-3" href="www.facebook.com" ><FontAwesomeIcon icon={faFacebook} /></a>
                         <a className="text-light mx-3" href="www.twitter.com" ><FontAwesomeIcon icon={faTwitter} /></a>
                         <a className="text-light mx-3" href="www.pinterest.com" ><FontAwesomeIcon icon={faPinterest} /></a>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
@@ -72,7 +72,7 @@ function Header() {
                 </div>
             </nav>
 
-        </header>
+        </header >
     )
 }
 
