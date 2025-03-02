@@ -9,7 +9,7 @@ function Rating() {
     return (
         <div className='ratingPage'>
 
-            <h2 className='text-light'>What people says about us . . .</h2>
+            <h2 className='text-light'>What people says about us...</h2>
 
             <MDBCarousel showIndicators fade interval={2250}>
 
